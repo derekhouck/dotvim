@@ -20,4 +20,5 @@ set autoindent
 " set vb
 " Source in your custom filetypes as given below -
 " so $HOME/vim/myfiletypes.vim
-highlight Normal guibg=lightyellow
+set background=dark
+colorscheme solarized
