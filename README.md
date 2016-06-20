@@ -17,6 +17,7 @@ git clone https://derekgmg@bitbucket.org/derekgmg/dotvim.git ~/.vim
 ## Add new submodule ##
 ```
 #!shell
+cd ~/.vim
 git submodule add http://github.com/user/vim-repo.git bundle/repo
 git add .
 git commit -m "Install Repo.vim bundle as a submodule."
