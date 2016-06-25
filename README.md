@@ -1,14 +1,25 @@
-Installation:
+# Installation #
 
-    git clone https://derekgmg@bitbucket.org/derekgmg/dotvim.git ~/.vim
+```
+#!shell
 
-Create symlinks:
+git clone https://derekgmg@bitbucket.org/derekgmg/dotvim.git ~/.vim
+```
+## Create symlinks ##
 
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
-Switch to the `~/.vim` directory, and fetch submodules:
+## Fetch submodules ##
 
     cd ~/.vim
-    git submodule init
-    git submodule update
+    git submodule update --init
+## Add new submodule ##
+```
+#!shell
+cd ~/.vim
+git submodule add http://github.com/user/vim-repo.git bundle/repo
+git add .
+git commit -m "Install Repo.vim bundle as a submodule."
+```
+Based on: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/

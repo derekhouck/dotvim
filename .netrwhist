@@ -1,6 +1,12 @@
 let g:netrw_dirhistmax  =10
+<<<<<<< HEAD
 let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/derek/vagrant-local/www/wordpress-default/wp-content/themes/promedspine/js'
 let g:netrw_dirhist_2='/Users/derek/Web Sites/my-hero-headshot/app/uploaders'
 let g:netrw_dirhist_3='/Users/derek/Web Sites/my-hero-headshot/app/assets/stylesheets'
 let g:netrw_dirhist_4='/Users/derek/Web Sites/myheroheadshot.com/config/deploy'
+=======
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/derek/vagrant-local/www/wordpress-default/wp-content/themes/promedspine/js'
+let g:netrw_dirhist_2='/Users/derek/dev/myheroheadshot/app'
+>>>>>>> 99191d0c80618ebf775db645bb68de88dc4d59a5
