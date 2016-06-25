@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/derek/vagrant-local/www/wordpress-default/wp-content/themes/promedspine/js'
+let g:netrw_dirhist_2='/Users/derek/Web Sites/my-hero-headshot/app/uploaders'
+let g:netrw_dirhist_3='/Users/derek/Web Sites/my-hero-headshot/app/assets/stylesheets'
+let g:netrw_dirhist_4='/Users/derek/Web Sites/myheroheadshot.com/config/deploy'
