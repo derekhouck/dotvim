@@ -9,3 +9,6 @@ set smartcase
 
 set wrap
 set linebreak
+
+" use older version of regex engine as it is faster for ruby
+set re=1
