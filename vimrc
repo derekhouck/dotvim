@@ -6,3 +6,5 @@ set background=dark
 colorscheme solarized
 set number
 set smartcase
+set wrap
+set linebreak
