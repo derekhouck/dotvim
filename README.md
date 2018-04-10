@@ -3,7 +3,7 @@
 ```
 #!shell
 
-git clone https://derekgmg@bitbucket.org/derekgmg/dotvim.git ~/.vim
+git clone https://github.com/derekhouck/dotvim.git ~/.vim
 ```
 ## Create symlinks ##
 
