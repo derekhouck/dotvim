@@ -16,3 +16,6 @@
 [submodule "bundle/javascript"]
 	path = bundle/javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/dracula-theme"]
+	path = bundle/dracula-theme
+	url = http://github.com/dracula/vim.git
