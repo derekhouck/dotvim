@@ -1,5 +1,6 @@
 execute pathogen#infect()
 filetype plugin indent on
+set hidden
 set sessionoptions-=options
 syntax enable
 set background=dark
