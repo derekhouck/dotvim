@@ -4,6 +4,7 @@ set sessionoptions-=options
 syntax enable
 set background=dark
 colorscheme solarized
+set nocompatible
 set number
 set smartcase
 set wrap
