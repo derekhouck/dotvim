@@ -1,25 +1,26 @@
 # Installation
 
-```
-#!shell
-
+```shell
 git clone git@github.com:derekhouck/dotvim.git ~/.vim
 ```
 
 ## Create symlinks
 
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
+```shell
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
+```
 
 ## Fetch submodules
 
-    cd ~/.vim
-    git submodule update --init
+```shell
+cd ~/.vim
+git submodule update --init
+```
 
 ## Add new submodule
 
-```
-#!shell
+```shell
 cd ~/.vim
 git submodule add http://github.com/user/vim-repo.git bundle/repo
 git add .
